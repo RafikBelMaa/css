@@ -1,0 +1,25 @@
+#container {
+  height: 100vh;
+  width: 100vh;
+}
+#container header {
+  background-color: #ffb973;
+  height: 8%;
+}
+#container main {
+  height: 50%;
+}
+#container section {
+  background-color: #ffcc99;
+  float: left;
+  height: 100%;
+  width: 60%;
+}
+#container aside {
+  background-color: #ffe599;
+  height: 100%;
+}
+#container footer {
+  background-color: #ccff99;
+  height: 12%;
+}/*# sourceMappingURL=style1.css.map */

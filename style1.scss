@@ -1,0 +1,37 @@
+$primaryColor: #ffb973;
+$secondaryColor: #ffcc99;
+$threeColor: #ffe599;
+$forColor: #ccff99;
+$hauteur: 100vh;
+$longueur: 100vh;
+
+#container {
+  height: ($hauteur);
+  width: ($longueur);
+
+  header {
+    background-color: $primaryColor;
+    height: 8%;
+  }
+
+  main {
+    height: 50%;
+  }
+
+  section {
+    background-color: $secondaryColor;
+    float: left;
+    height: 100%;
+    width: 60%;
+  }
+
+  aside {
+    background-color: $threeColor;
+    height: 100%;
+  }
+
+  footer {
+    background-color: $forColor;
+    height: 12%;
+  }
+}
